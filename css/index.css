@@ -49,4 +49,21 @@ body {
     font-size: 1.3rem;
     margin: 0 0.5rem;
     border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#navbar li a:hover {
+    background-color: #3693ff;
+}
+
+#showcase {
+    background: url(../Images/68fd5de5503041437aaf603bb5cafddd.jpg) no-repeat center center/cover;
+    height: 91.7vh;
+}
+
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
 }
