@@ -83,6 +83,11 @@ body {
 .showcase-content .btn {
     font-size: 1.5rem;
     padding: 1rem 10rem;
+    transition: color 0.3s, background 0.3s;
+}
+.showcase-content .btn:hover {
+    background: #3693ff;
+    color: #fff;
 }
 
 .btn {
@@ -90,5 +95,7 @@ body {
     text-decoration: none;
     display: inline-block;
     padding: 1rem 2rem;
-    
+    border: 1px solid #3693ff;
+    border-radius: 10px;
+    font-weight: bold;
 }
