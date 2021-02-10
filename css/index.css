@@ -124,10 +124,6 @@ body {
     margin-bottom: 1rem;
 }
 
-#about .about-content {
-  /*display: flex;*/
-}
-
 #about .about-text,
 #about .about-image {
     flex: 1;
@@ -148,9 +144,8 @@ body {
 #services {
     padding: 5rem 0;
 }
-
-#services h3 {
-    text-align: center;
+services h3 {
+    text-align: left;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
