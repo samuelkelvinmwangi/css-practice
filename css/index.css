@@ -125,7 +125,7 @@ body {
 }
 
 #about .about-content {
-  /* display: flex;*/
+  /*display: flex;*/
 }
 
 #about .about-text,
@@ -166,4 +166,12 @@ body {
     border-radius: 10px;
     box-shadow: 2px 2px 5px #d1d1d1;
     font-size: 1.3rem;
+}
+#services .box i {
+    color: #fff;
+    padding: 0.3rem;
+    background: #3693ff;
+    border-radius: 10%;
+    margin:  1rem;
+    margin-bottom: 0.3rem;
 }
