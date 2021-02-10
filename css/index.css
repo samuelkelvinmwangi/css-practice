@@ -14,5 +14,37 @@
 
  /* utility classes */
  .container {
-     max-width: 1.4;
+     max-width: 1100px;
+     margin: auto;
  }
+
+  .text-primary {
+      color: #3693ff;
+
+  }
+
+/* Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: #fff;
+    padding: 1.5rem 8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
