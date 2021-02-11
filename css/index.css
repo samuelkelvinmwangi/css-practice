@@ -26,6 +26,11 @@ body {
       color: #333;
   }
 
+  .bg-dark {
+      background: #333;
+      color: #fff;
+  }
+
 /* Navbar */
 #navbar {
     display: flex;
@@ -296,4 +301,11 @@ services h3 {
     display: block;
     margin-left: auto;
     margin-right: auto 
+}
+
+footer {
+    padding: 2.5rem;
+}
+footer p {
+    text-align: center;
 }
