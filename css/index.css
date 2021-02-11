@@ -178,3 +178,46 @@ services h3 {
 .box-2 {
     flex: 1;
 }
+#testimonials {
+    background: url(../Images/a84281cdaf94f5b131d0d52ab7044e19.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+.testimonials-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    padding: 5rem 0;
+}
+#testimonials h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: #fff;
+
+}
+#testimonials .boxes {
+    display: flex;
+    flex-direction: column;;
+}
+#testimonials .box {
+    background: rgb(54,147,255,0.7);
+    display: flex;
+    padding: 0.3rem;
+    align-items: center;
+    border-radius: 5px;
+    width: 50%;
+}
+#testimonials .box:first-child, #testimonials .box:nth-child(2) {
+    margin-bottom: 5rem;
+}
+#testimonials .box img {
+    border-radius: 50%;
+    margin-right: 1rem;
+    width: 70px;
+    border-radius: 70px;
+    margin-top: 5px;
+}
+#testimonials p {
+    color: #fff;
+}
