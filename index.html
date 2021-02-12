@@ -7,6 +7,7 @@
     <title>Samuel Portfolio</title>
     <link re="stylesheet" href="fontawesome-free-5.15.2-web">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="Images/favicon 1.jpeg">
 </head>
 <body id="home">
    
@@ -19,7 +20,7 @@
             <li><a href="services">Services</a></li>
             <li><a href="testimonials">Testimonials</a></li>
             <li><a href="contact">Contact</a></li>
-            <li><a href="https://www.google.com">Facebook</a></li>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
 
         </ul>
     </nav>
@@ -27,16 +28,15 @@
     <!-- Showcase Area-->
     <header id="showcase">
         <di class="showcase-content">
-            <div class="container">
                 <h1>Take Your Business to <br> <span class="text-primary">New Heights</span></h1>
-                <a href="about" class="btn">FIND OUT HOW</a>
+               <a href="about" class="btn">FIND OUT HOW</a>
             </div>
         </di>
     </header>
     <!-- Section About -->
     <section id="about">
-        <div class="container">
-            <h2 class="about-heading">Get to Know <span class="text-primary">Me</span></h2>
+        <h2 class="about-heading">Get to Know <span class="text-primary">Me</span></h2>
+          <div class="container">
             <div class="about-content">
                     <div class="about-text">
                         <h3>A little Bit <span class="text-primary">About Myself</span></div></h3>
@@ -51,18 +51,18 @@
                         I later got employed to practice my profession in the engineering department. 
                         later i joined Moringer to expand my knoledge.</p>
                     </div>
-                    <!--<div class="about-image">
+                    <div class="about-image">
                         <img src="Images/Sam 2.jpg" alt="Picture of Myself">
-                    </div>-->
+                    </div>
             </div>
         </div>
     </section>
 
     <!-- Section: Services-->
     <section id="services" class="bg-light">
+        <h2>Here Is What <span class="text-primary">I Have to Offer</span></h2>
         <div class="container">
-            <h2>Here Is What <span class="text-primary">I Have to Offer</span></h2>
-            <div class="box">
+            <div class="box-1">
                 <h3><span class="text-primary">Awesome Modern Website</span></h3>
                 <div class="feature">
                     <i class="fas fa-check"></i> Mordern Layout Design
@@ -74,20 +74,80 @@
                     <i class="fas fa-check"></i> Browser Compatibility
                 </div>
             </div>
-            <div class="box">
-                <h3><span class="text-primary">Free Hosting &amp; Maintenamce</span></h3>
+            <div class="box-2">
+                <h3><span class="text-primary">Projects Done</span></h3>
                 <div class="feature">
-                    <i class="fas fa-check"></i> Free Domaine Name
+                    <i class="fas fa-check"></i> Hello word web page <li><a href="https://github.com/samuelkelvinmwangi/hello-world.git" target="_blank">Hello World</a></li>
                 </div><div class="feature">
-                    <i class="fas fa-check"></i> Free Hosting
+                    <i class="fas fa-check"></i> First-web page <li><a href="https://github.com/samuelkelvinmwangi/first-web-page.git" target="_blank">First Web Page</a></li>
                 </div><div class="feature">
-                    <i class="fas fa-check"></i> Free SSL Certificate
-                </div><div class="feature">
-                    <i class="fas fa-check"></i> Personal Assistance
+                    <i class="fas fa-check"></i> Samuel Portfolio <li><a href="http://127.0.0.1:5500/index.html" target="_blank">Portfolio</a></li>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Testimonials-->
+    <section id="testimonials">
+        <div class="testimonials-bg">
+                <h2>What My Clients Say <span class="text-primary">About Me</span></h2>
+                <div class="container">
+                <div class="boxes">
+                    <div class="box">
+                        <img src="Images/Customer 1.jpg" alt="Customer 1 Photo">
+                        <p>The process and the product produced is efficient and very essential 
+                            for my business. This is a great company to invest in.</p>
+                    </div>
+                    <div class="box">
+                        <img src="Images/Customer 2.jpg" alt="Customer 2 Photo">
+                        <p> The customer service is very good and i loved the product that they
+                            offered. The website works perfectly and well in evry aspect expected.</p>
+                    </div>
+                    <div class="box">
+                        <img src="Images/Customer 4.jpg" alt="Customer 4 Photo">
+                        <p> The ability of the personel to host and provide a web domain for free 
+                            makes it easy for us to invest. Also the services enable us to intaract 
+                            with the customers with ease.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Contact Section-->
+    <section id="contact" class="bg-light">
+            <h2>Get Your <span class="text-primary">Website</span> Now</h2>
+            <div class="container"></div>
+            <div class="form-container">
+                <div class="mail-icon"><img src="Images/Message icon.jpg" alt="Message Picture"></div>
+                <div class="form-box">
+                    <h3>Send Me a <span class="text-primary">Message</span></h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" placeholder="Enter Your First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" placeholder="Enter Your Last Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea rows="7" placeholder="Enter Your Message Here"></textarea>
+                        </div>
+                        <input type="submit" value="Send Message" class="contact-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="bg-dark">
+        <p>Copyright &copy; Samuel Mwangi Web Dev 2021</p>
+    </footer>
 
 </body>
 </html>
